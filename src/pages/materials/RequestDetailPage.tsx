@@ -127,7 +127,7 @@ export default function RequestDetailPage() {
               {WORKFLOW_STEPS.map(step => {
                 const isCompleted = request.currentStep > step.step || request.status === 'COMPLETED'
                 const isCurrent = request.currentStep === step.step && request.status !== 'COMPLETED' && request.status !== 'REJECTED'
-                const isPending = request.currentStep < step.step
+                // const isPending = request.currentStep < step.step
 
                 return (
                   <div key={step.step} className="flex items-center gap-3">

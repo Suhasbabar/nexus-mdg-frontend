@@ -3,7 +3,7 @@ import Layout from '../../components/Layout'
 import { materialsService } from '../../services/materials.service'
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid,
-  Tooltip, Legend, ResponsiveContainer, ReferenceLine
+  Tooltip, Legend, ResponsiveContainer
 } from 'recharts'
 import {
   Clock, AlertTriangle, CheckCircle,

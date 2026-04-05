@@ -6,7 +6,7 @@ import {
   LineChart, Line, PieChart, Pie, Cell, ResponsiveContainer
 } from 'recharts'
 import {
-  TrendingUp, CheckCircle, XCircle, Clock,
+  TrendingUp, CheckCircle, Clock,
   AlertTriangle, Building2, FileText
 } from 'lucide-react'
 
